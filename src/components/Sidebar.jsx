@@ -47,8 +47,8 @@ const Sidebar = ({ activeTool, setActiveTool }) => {
         <div className="sidebar-user">
           <div className="sidebar-avatar">VV</div>
           <div className="sidebar-user-info">
-            <span className="sidebar-user-name">Vanshika Varma</span>
-            <span className="sidebar-user-email">Built for Digital Heroes</span>
+            <span className="sidebar-user-name">Vanshika Verma</span>
+            <span className="sidebar-user-email">vanshikaverma1310@gmail.com</span>
           </div>
         </div>
       </div>
