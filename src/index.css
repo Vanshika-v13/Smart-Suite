@@ -295,6 +295,58 @@ body {
   text-overflow: ellipsis;
 }
 
+/* ─── Digital Heroes Badge ───────────────────────────────────── */
+.sidebar-heroes-section {
+  margin-top: auto;
+  padding: var(--sp-4) var(--sp-3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--sp-2);
+}
+
+.heroes-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-2);
+  padding: 9px 16px;
+  border-radius: var(--r-md);
+  background: var(--gradient-accent);
+  color: #fff;
+  font-family: var(--font);
+  font-size: 12.5px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: var(--shadow-accent);
+  transition: all var(--t-base);
+  width: 100%;
+  justify-content: center;
+}
+
+.heroes-badge:hover {
+  transform: translateY(-1px) scale(1.02);
+  box-shadow: 0 6px 28px rgba(79, 70, 229, 0.45);
+}
+
+.heroes-badge:active {
+  transform: scale(0.98);
+}
+
+.heroes-badge-icon {
+  font-size: 14px;
+  line-height: 1;
+}
+
+.heroes-tagline {
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--text-tertiary);
+  text-align: center;
+  line-height: 1.4;
+}
+
 /* ─── Page Header ────────────────────────────────────────────── */
 .page-header {
   width: 100%;
@@ -915,6 +967,7 @@ textarea.form-input {
   .nav-item { flex-shrink: 0; }
   .nav-item.active::before { display: none; }
   .sidebar-footer { display: none; }
+  .sidebar-heroes-section { display: none; }
   .main-content { padding: var(--sp-4); }
   .card { padding: var(--sp-6); }
   .grid-2-col { grid-template-columns: 1fr; gap: var(--sp-4); }

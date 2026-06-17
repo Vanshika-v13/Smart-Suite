@@ -42,6 +42,15 @@ const Sidebar = ({ activeTool, setActiveTool }) => {
         ))}
       </ul>
 
+      {/* Digital Heroes Badge */}
+      <div className="sidebar-heroes-section">
+        <div className="heroes-badge" id="digital-heroes-badge">
+          <span className="heroes-badge-icon">⚡</span>
+          Built for Digital Heroes
+        </div>
+        <span className="heroes-tagline">Crafted for the Digital Heroes internship task</span>
+      </div>
+
       {/* Footer / User */}
       <div className="sidebar-footer">
         <div className="sidebar-user">
